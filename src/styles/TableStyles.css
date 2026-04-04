@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --finoscale-purple: #3C1B5F; 
+}
+
+body {
+  @apply bg-[#f4f7fa] font-sans;
+}
+
+.financial-table th {
+  @apply bg-[#f9fafb] text-[#6b7280] font-bold text-[11px] uppercase tracking-wider border-b border-gray-200 p-3;
+}
+
+.financial-table td {
+  @apply border-b border-gray-100 p-3 text-[13px] text-[#374151];
+}
+
+.number-font {
+  font-family: 'Inter', ui-sans-serif, system-ui;
+  font-feature-settings: "tnum";
+}
+
+.sidebar-icon {
+  @apply w-full py-3 flex items-center justify-center cursor-pointer transition-all text-[#a5a6f6] hover:bg-[#5a3b82];
+}
+
+.sidebar-active {
+  @apply bg-white text-[#432a61] border-l-4 border-[#432a61];
+}
