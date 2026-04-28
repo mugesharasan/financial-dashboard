@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "email": "mugesh@gmail.com",
+      "password": "mugesh@123",
+      "id": "pDzGD5OwEw8"
+    },
+    {
+      "email": "mugesh@gmail.com",
+      "password": "mugesh@123",
+      "id": "CQOb7NRDd1w"
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "id": "f9zLJWLfeyM"
+    }
+  ],
+  "financials": [
+     {
+      "id": 1,
+      "year": "2025-03-31",
+      "bs": {
+        "assets": {
+          "tangible_assets": 100000,
+          "noncurrent_investments": 50000,
+          "inventories": 25000,
+          "trade_receivables": 15000,
+          "given_assets_total": 190000
+        },
+        "subTotals": {
+          "net_fixed_assets": 100000
+        }
+      }
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
